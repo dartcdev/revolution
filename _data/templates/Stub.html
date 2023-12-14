@@ -1,0 +1,35 @@
+id: 14
+source: 1
+templatename: Stub
+properties: 'a:0:{}'
+
+-----
+
+<!doctype html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="apple-touch-icon" sizes="180x180" href="{$_modx->config.template_path}img/favicon/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="{$_modx->config.template_path}img/favicon/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="{$_modx->config.template_path}img/favicon/favicon-16x16.png" />
+		<link rel="manifest" href="{$_modx->config.template_path}img/favicon/site.webmanifest" />
+		<link rel="mask-icon" href="{$_modx->config.template_path}img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+		<meta name="msapplication-TileColor" content="#ffffff" />
+		<meta name="theme-color" content="#ffffff" />
+		<link rel="stylesheet" href="{$_modx->config.template_path}css/tailwind.css?v=1" />
+		<link rel="stylesheet" href="{$_modx->config.template_path}css/all-pages.css" />
+		<title>{$_modx->config['site_name']}</title>
+	</head>
+	<body class="body">
+		<main class="main" id="main">
+			<section class="h-full w-full bg-[#231F20] py-10">
+				<div class="mx-auto flex h-full max-w-[660px] flex-col items-center justify-center gap-6 px-6 md:gap-10 md:px-4">
+					<img src="{$_modx->config.template_path}img/icons-content/logo.svg" width="660" height="220" alt="Логотип: {$_modx->config['site_name']}" />
+					<a class="group flex h-10 w-full items-center justify-center rounded-lg border border-solid border-white transition duration-200 hover:bg-white md:h-20 md:rounded-2xl md:border-2" href="mailto:{$_modx->config.mail}"><span class="text-xl text-white transition duration-200 group-hover:text-[#231F20] md:text-2xl">{$_modx->config.mail}</span></a>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

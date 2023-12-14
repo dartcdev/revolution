@@ -1,0 +1,4 @@
+key: site_status
+value: '0'
+xtype: combo-boolean
+area: site

@@ -1,0 +1,11 @@
+id: 1
+type: hidden
+name: babelLanguageLinks
+caption: 'Babel Translation Links'
+description: 'Используется плагином Babel. Не изменяйте!'
+elements: null
+default_text: ''
+properties: null
+input_properties: null
+output_properties: null
+content: ''
